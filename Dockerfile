@@ -11,7 +11,7 @@ RUN mkdir -p $APP_HOME
 EXPOSE 8080
 
 # Copy the built JAR file
-COPY target/*.jar $APP_HOME/app.jar
+COPY target/*.jar $APP_HOME/
 
 # Set the working directory
 WORKDIR $APP_HOME
